@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class myController {
     @GetMapping("/first")
     public String run(){
-        return "this is first springBoot project in Intellij idea";
+        return "this is first springBoot project in Intellij idea IDE";
     }
 }
